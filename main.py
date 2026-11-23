@@ -135,7 +135,7 @@ LEG_B_MAX_HOLD_BARS = 120
 # Leg K: breakout above the 120-bar high.
 LEG_K_LOOKBACK_BARS = 120
 LEG_K_BREAKOUT_PER_MILLE = 2      # entry: close >= 120-bar high * 1002 / 1000 (+0.2%)
-LEG_K_RANGE_PER_MILLE = 10        # entry: 120-bar range >= 1.0% of its high
+LEG_K_RANGE_PER_MILLE = 11        # entry: 120-bar range >= 1.1% of its high
 LEG_K_TAKE_PROFIT_PER_MILLE = 28  # exit: value >= cost * 1028 / 1000 (+2.8%)
 LEG_K_MAX_HOLD_BARS = 480
 # Leg S: short-low bounce off a medium dip, regime-gated.
